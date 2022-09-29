@@ -7,13 +7,13 @@ body{
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.nav > button{
+.nav > a > button{
   margin: 8px;
   padding: 5px 10px;
   border: 0.5px solid purple;
   border-radius: 4px;
 }
-.nav > button > a{
+.nav > a{
   text-decoration: none;
 }
 
