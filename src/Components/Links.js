@@ -12,7 +12,7 @@ const Links = ({page}) => {
                 return item
             }
         }).map((item, index)=>{
-            return <button key={index}><Link  to={`/${item}`}>{item.toUpperCase()}</Link></button>
+            return <Link key={index} to={`/${item}`}><button>{item.toUpperCase()}</button></Link>
         })}
     </div>
   )
