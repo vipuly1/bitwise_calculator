@@ -46,6 +46,7 @@ const InputElement = ({ operation, handleAns }) => {
                 type="text"
                 name="input1"
                 required
+                pattern="\d*"
                 onChange={(e) =>
                     setValues({ ...values, [e.target.name]: e.target.value })
                 }
@@ -55,6 +56,7 @@ const InputElement = ({ operation, handleAns }) => {
                 type="text"
                 name="input2"
                 required
+                pattern="\d*"
                 onChange={(e) =>
                     setValues({ ...values, [e.target.name]: e.target.value })
                 }
